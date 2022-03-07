@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "testjobavo",
+    "password": "testjobavo",
+    "database": "test_crud",
+    "host": "db.rxweb.ca",
+    "dialect": "mysql",
+    "port": 3306  
+  },
+  "test": {
+    "username": "testjobavo",
+    "password": "testjobavo",
+    "database": "test_crud",
+    "host": "db.rxweb.ca",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "testjobavo",
+    "password": "testjobavo",
+    "database": "test_crud",
+    "host": "db.rxweb.ca",
+    "dialect": "mysql"
+  }
+}
