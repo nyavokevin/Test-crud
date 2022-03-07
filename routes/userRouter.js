@@ -22,6 +22,7 @@ router.post('/user', bodyParser ,async (req, res) => {
             street: street,
             city: city
         })
+        newUser.save()
         return res.send({ user:newUser})
     } catch (error) {
         return res.status(500).json(error)
