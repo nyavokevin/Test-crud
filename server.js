@@ -21,7 +21,7 @@ app.get('/', function (req,res) {
   res.sendFile(path + "index.html");
 });
 
-app.listen( (process.env.PORT || 3000) , async () => {
+app.listen( (process.env.PORT || 5000) , async () => {
     console.log('Server up')
     await sequelize.authenticate()
     console.log('Database connnected')
