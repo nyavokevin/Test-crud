@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
+   "username": "testjobavo",
+    "password": "testjobavo",
     "database": "test_crud",
-    "host": "localhost",
+    "host": "db.rxweb.ca",
     "dialect": "mysql",
     "port": 3306  
   },
